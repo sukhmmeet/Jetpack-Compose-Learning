@@ -112,10 +112,14 @@ fun ExpandableCard(
 @Composable
 @Preview
 fun ExpandableCardPreview(){
-    val description = "Being with you feels like coming home. " +
-            "You've created this space where I can just be myself, " +
-            "completely safe and loved. You're not just my partner; " +
-            "you're my best friend, my soulmate, and the person who " +
-            "makes my heart feel truly complete. I cherish every moment with you"
-    ExpandableCard(title = "Sukhmeet Singh Dhaliwal", description = description)
+    val description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " +
+            "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque " +
+            "penatibus et magnis dis parturient montes, nascetur ridiculus mus. " +
+            "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. " +
+            "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet " +
+            "nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis " +
+            "vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. " +
+            "Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. " +
+            "Aenean leo ligu"
+    ExpandableCard(title = "Lorem Ipsum", description = description)
 }
